@@ -2,3 +2,24 @@ Link para download do Git
 https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimisar o uso do Git.
 
+1. Acessar o link https://github.com/;
+2. Criação de conta para acessar o Github;
+3. Clicar no menu REPOSITORIES e em seguida no botão NEW, para criar um novo repositório;
+4. Nomear o repositório. Como boa prática, não usar espaços ou caracteres especiais. Usar palavras que transmitam um significado claro e lógico;
+5. Se possível inserir uma DESCRIÇÃO ao repositório que está sendo criado;
+6. Se o intúito é ter interatividade com o público, a opção PUBLIC deve estar marcada;
+7. Marcar a opção ADD A README FILE para gerar um arquivo para registrar as atividades do repositório;
+8. Por fim, clicar no botão CREATE REPOSITORY para finalizar o processo.
+9. Como boa prática, no computador criamos uma pasta, que deverá armazenar todos os projetos a serem desenvolvidos. Use a forma mais prática de acordo com sistema operacional instalado;
+10. Com o Git Bash devidamente instalado e confirgurado no computador, devemos abri-lo e direciona-lo para a pasta criada;
+11. cd 'nome da pasta'
+12. É necessario informar uma forma de acessar o repositório no Github. Vamos usar a o HTTPS. Para isso devemos acessar o Github, Repositories, escolher o repositório criado, clicar no botão CODE e escolher a opção HTTPS. Nela há uma URL. Devemos clicar no botão para copiar o link;
+13. De volta ao Git Bash, vamos clonar o nosso repositório do Github para a nossa pasta de projetos;
+14. git clone "colar aqui o endereço copiado do repositório no Github";
+15. Vamos agora entrar na pasta/repositório copiado do Github;
+16. cd 'nome da pasta';
+17. Crie e adicione quantos arquivos forem necessários para o seu projeto na devida pasta que foi clonada do Github. Após isso devemos usar o Git Bash para adicionar os arquivos para o Github;
+18. git add . ;
+19. git commit -m "inserir uma mensagem para atualizar cada commit que for executado";
+20. Agora vamos enviar todo o conteúdo da pasta para o Github;
+21. git push origin main ;
